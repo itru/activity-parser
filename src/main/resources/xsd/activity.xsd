@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:media="http://purl.org/syndication/atommedia" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:usr="http://streams.atlassian.com/syndication/username/1.0" xmlns:atlassian="http://streams.atlassian.com/syndication/general/1.0">
+    <xs:import namespace="http://purl.org/syndication/atommedia" schemaLocation="media.xsd"/>
+    <xs:import namespace="http://purl.org/syndication/thread/1.0" schemaLocation="thr.xsd"/>
+    <xs:import namespace="http://streams.atlassian.com/syndication/general/1.0" schemaLocation="atlassian.xsd"/>
+    <xs:import namespace="http://streams.atlassian.com/syndication/username/1.0" schemaLocation="usr.xsd"/>
+    <xs:import namespace="http://www.w3.org/2005/Atom" schemaLocation="feed.xsd"/>
+    <xs:element name="verb" type="xs:anyURI"/>
+    <xs:element name="object">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="atom:id"/>
+                <xs:element minOccurs="0" ref="atom:title"/>
+                <xs:element minOccurs="0" ref="atom:summary"/>
+                <xs:element ref="atom:link"/>
+                <xs:element ref="activity:object-type"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="target">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="atom:id"/>
+                <xs:element ref="atom:title"/>
+                <xs:element ref="atom:summary"/>
+                <xs:element ref="atom:link"/>
+                <xs:element ref="activity:object-type"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="object-type" type="xs:anyURI"/>
+</xs:schema>

@@ -1,0 +1,541 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:atlassian="http://streams.atlassian.com/syndication/general/1.0">
+    <id>https://jira.test.com/activity?maxResults=20&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;os_authType=basic&amp;title=undefined</id>
+    <link href="https://jira.test.com/activity?maxResults=20&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;os_authType=basic&amp;title=undefined" rel="self"/>
+    <title type="text">undefined</title>
+    <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+    <updated>2018-08-27T14:13:04.742Z</updated>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>urn:uuid:09947297-399f-3e53-acef-dc3818440df6</id>
+        <title type="html">&lt;a href="https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> changed the Priority to 'Minor' on &lt;a href="https://jira.test.com/browse/TEST-316">TEST-316 - 🔗 проверка емоджи&lt;/a>
+        </title>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T14:12:51.002Z</published>
+        <updated>2018-08-27T14:12:51.002Z</updated>
+        <link href="https://jira.test.com/browse/TEST-316" rel="alternate"/>
+        <link href="https://jira.test.com/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task"/>
+        <link href="https://jira.test.com/s/en_US-2d1cck/64018/13/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://jira.test.com/plugins/servlet/streamscomments/issues/TEST-316" rel="http://streams.atlassian.com/syndication/reply-to"/>
+        <generator uri="https://jira.test.com"/>
+        <atlassian:application>com.atlassian.jira</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>urn:uuid:6826d651-5957-35c2-8e4e-b32abb263c32</id>
+            <title type="text">TEST-316</title>
+            <summary type="text">🔗 проверка емоджи</summary>
+            <link rel="alternate" href="https://jira.test.com/browse/TEST-316"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+        </activity:object>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>urn:uuid:5036a33a-3f53-3ebe-a6cd-1537f7c38f4a</id>
+        <title type="html">&lt;a href="https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> updated 2 fields of &lt;a href="https://jira.test.com/browse/TEST-316">TEST-316 - 🔗 проверка емоджи&lt;/a>
+        </title>
+        <content type="html">&lt;ul class="updates activity-list">
+            &lt;li>Logged '1 hour'
+            &lt;li>Changed the Remaining Estimate to '0 minutes'
+            &lt;/ul>
+        </content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T12:36:30.803Z</published>
+        <updated>2018-08-27T12:36:30.803Z</updated>
+        <link href="https://jira.test.com/browse/TEST-316" rel="alternate"/>
+        <link href="https://jira.test.com/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task"/>
+        <link href="https://jira.test.com/s/en_US-2d1cck/64018/13/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://jira.test.com/plugins/servlet/streamscomments/issues/TEST-316" rel="http://streams.atlassian.com/syndication/reply-to"/>
+        <generator uri="https://jira.test.com"/>
+        <atlassian:application>com.atlassian.jira</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>urn:uuid:6826d651-5957-35c2-8e4e-b32abb263c32</id>
+            <title type="text">TEST-316</title>
+            <summary type="text">🔗 проверка емоджи</summary>
+            <link rel="alternate" href="https://jira.test.com/browse/TEST-316"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+        </activity:object>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+        <id>urn:uuid:353f54d2-4dfc-3887-b463-ab7cfbec8f80</id>
+        <title type="html">&lt;a href="https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> commented on &lt;a href="https://jira.test.com/browse/KRAFTBEER-1574">KRAFTBEER-1574 - 230 RFC 180695 выдачи на карту - не
+            проставляется префикс с #&lt;/a>
+        </title>
+        <content type="html">&lt;blockquote>
+            &lt;p>Тогда, пожалуйста, подтвердите что берете риски по замедлению оповещения изменения статусов в ABS на себя. &lt;/p> &lt;/blockquote>
+        </content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T10:55:48.556Z</published>
+        <updated>2018-08-27T10:55:48.556Z</updated>
+        <category term="comment"/>
+        <link href="https://jira.test.com/browse/KRAFTBEER-1574?focusedCommentId=291916&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-291916" rel="alternate"/>
+        <link href="https://jira.test.com/secure/viewavatar?size=xsmall&amp;avatarId=12914&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Business Requirement (ZNI)"/>
+        <link href="https://jira.test.com/s/en_US-2d1cck/64018/13/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://jira.test.com/plugins/servlet/streamscomments/issues/KRAFTBEER-1574" rel="http://streams.atlassian.com/syndication/reply-to"/>
+        <thr:in-reply-to ref="urn:uuid:a376086b-e863-3146-a670-3aead8cdf203"/>
+        <generator uri="https://jira.test.com"/>
+        <atlassian:application>com.atlassian.jira</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+        <activity:object>
+            <id>urn:uuid:8d858884-7512-376e-959e-e7628ce8ba0c</id>
+            <link rel="alternate" href="https://jira.test.com/browse/KRAFTBEER-1574?focusedCommentId=291916&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-291916"/>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+        </activity:object>
+        <activity:target>
+            <id>urn:uuid:a376086b-e863-3146-a670-3aead8cdf203</id>
+            <title type="text">KRAFTBEER-1574</title>
+            <summary type="text">230 RFC 180695 выдачи на карту - не проставляется префикс с #</summary>
+            <link rel="alternate" href="https://jira.test.com/browse/KRAFTBEER-1574"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+        </activity:target>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+        <id>https://conf.test.com/pages/viewpage.action?pageId=26358256</id>
+        <title type="html">&lt;a href="https://conf.test.com/display/~Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> edited &lt;a href="https://conf.test.com/pages/viewpage.action?pageId=26358256">&amp;#1048;&amp;#1085;&amp;#1092;&amp;#1086;&amp;#1088;&amp;#1084;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1103;
+            &amp;#1087;&amp;#1086; &amp;#1084;&amp;#1086;&amp;#1076;&amp;#1091;&amp;#1083;&amp;#1103;&amp;#1084;&lt;/a>
+        </title>
+        <content type="html">&lt;div class="user-content">
+            (&lt;a href="https://conf.test.com/pages/diffpagesbyversion.action?pageId=26358256&amp;originalVersion=73&amp;revisedVersion=74">view change&lt;/a>) &lt;/div>
+        </content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://conf.test.com/display/~Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T07:11:56.958Z</published>
+        <updated>2018-08-27T07:11:56.958Z</updated>
+        <category term="page"/>
+        <link href="https://conf.test.com/pages/viewpage.action?pageId=26358256" rel="alternate"/>
+        <link href="https://conf.test.com/plugins/servlet/streamscomments/wiki/page/26358256" rel="http://streams.atlassian.com/syndication/reply-to"/>
+        <link href="https://conf.test.com/images/icons/docs_16.gif" rel="http://streams.atlassian.com/syndication/icon" title="Page"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/master.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/wiki-content.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/tables.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/panels.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/renderer-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/icons.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/information-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/layout-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <thr:in-reply-to ref="https://conf.test.com/plugins/servlet/streamscomments/wiki/page/26358256"/>
+        <generator uri="https://conf.test.com"/>
+        <atlassian:application>com.atlassian.confluence</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>https://conf.test.com/pages/viewpage.action?pageId=26358256</id>
+            <title type="text">Информация по модулям</title>
+            <link rel="alternate" href="https://conf.test.com/pages/viewpage.action?pageId=26358256"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/page</activity:object-type>
+        </activity:object>
+        <activity:target>
+            <id>https://conf.test.com/display/KRAFTBEERE</id>
+            <title type="text">КрафтПиво-Fuse</title>
+            <link rel="alternate" href="https://conf.test.com/display/KRAFTBEERE"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/space</activity:object-type>
+        </activity:target>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+        <source>
+            <id>https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic</id>
+            <link href="https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic" rel="self"/>
+            <title type="text">Activity Stream</title>
+            <atlassian:timezone-offset>+0600</atlassian:timezone-offset>
+            <subtitle type="text">Lists recent activity in a single space, or in all spaces.</subtitle>
+            <updated>2018-08-27T07:11:56.958Z</updated>
+        </source>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>https://conf.test.com/pages/viewpage.action?pageId=40030499</id>
+        <title type="html">&lt;a href="https://conf.test.com/display/~Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> edited &lt;a href="https://conf.test.com/pages/viewpage.action?pageId=26358256">&amp;#1048;&amp;#1085;&amp;#1092;&amp;#1086;&amp;#1088;&amp;#1084;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1103;
+            &amp;#1087;&amp;#1086; &amp;#1084;&amp;#1086;&amp;#1076;&amp;#1091;&amp;#1083;&amp;#1103;&amp;#1084;&lt;/a>
+        </title>
+        <content type="html">&lt;div class="user-content">
+            (&lt;a href="https://conf.test.com/pages/diffpagesbyversion.action?pageId=40030499&amp;originalVersion=72&amp;revisedVersion=73">view change&lt;/a>) &lt;/div>
+        </content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://conf.test.com/display/~Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T07:11:30.506Z</published>
+        <updated>2018-08-27T07:11:30.506Z</updated>
+        <category term="page"/>
+        <link href="https://conf.test.com/pages/viewpage.action?pageId=40030499" rel="alternate"/>
+        <link href="https://conf.test.com/images/icons/docs_16.gif" rel="http://streams.atlassian.com/syndication/icon" title="Page"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/master.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/wiki-content.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/tables.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/panels.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/renderer-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/icons.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/information-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/layout-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <generator uri="https://conf.test.com"/>
+        <atlassian:application>com.atlassian.confluence</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>https://conf.test.com/pages/viewpage.action?pageId=26358256</id>
+            <title type="text">Информация по модулям</title>
+            <link rel="alternate" href="https://conf.test.com/pages/viewpage.action?pageId=26358256"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/page</activity:object-type>
+        </activity:object>
+        <activity:target>
+            <id>https://conf.test.com/display/KRAFTBEERE</id>
+            <title type="text">КрафтПиво-Fuse</title>
+            <link rel="alternate" href="https://conf.test.com/display/KRAFTBEERE"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/space</activity:object-type>
+        </activity:target>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+        <source>
+            <id>https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic</id>
+            <link href="https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic" rel="self"/>
+            <title type="text">Activity Stream</title>
+            <atlassian:timezone-offset>+0600</atlassian:timezone-offset>
+            <subtitle type="text">Lists recent activity in a single space, or in all spaces.</subtitle>
+            <updated>2018-08-27T07:11:56.958Z</updated>
+        </source>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>https://conf.test.com/pages/viewpage.action?pageId=40030498</id>
+        <title type="html">&lt;a href="https://conf.test.com/display/~Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> edited &lt;a href="https://conf.test.com/pages/viewpage.action?pageId=26358256">&amp;#1048;&amp;#1085;&amp;#1092;&amp;#1086;&amp;#1088;&amp;#1084;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1103;
+            &amp;#1087;&amp;#1086; &amp;#1084;&amp;#1086;&amp;#1076;&amp;#1091;&amp;#1083;&amp;#1103;&amp;#1084;&lt;/a>
+        </title>
+        <content type="html">&lt;div class="user-content">
+            (&lt;a href="https://conf.test.com/pages/diffpagesbyversion.action?pageId=40030498&amp;originalVersion=71&amp;revisedVersion=72">view change&lt;/a>) &lt;/div>
+        </content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://conf.test.com/display/~Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T07:10:32.879Z</published>
+        <updated>2018-08-27T07:10:32.879Z</updated>
+        <category term="page"/>
+        <link href="https://conf.test.com/pages/viewpage.action?pageId=40030498" rel="alternate"/>
+        <link href="https://conf.test.com/images/icons/docs_16.gif" rel="http://streams.atlassian.com/syndication/icon" title="Page"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/master.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/wiki-content.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/tables.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/panels.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/renderer-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/icons.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/information-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/layout-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <generator uri="https://conf.test.com"/>
+        <atlassian:application>com.atlassian.confluence</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>https://conf.test.com/pages/viewpage.action?pageId=26358256</id>
+            <title type="text">Информация по модулям</title>
+            <link rel="alternate" href="https://conf.test.com/pages/viewpage.action?pageId=26358256"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/page</activity:object-type>
+        </activity:object>
+        <activity:target>
+            <id>https://conf.test.com/display/KRAFTBEERE</id>
+            <title type="text">КрафтПиво-Fuse</title>
+            <link rel="alternate" href="https://conf.test.com/display/KRAFTBEERE"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/space</activity:object-type>
+        </activity:target>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+        <source>
+            <id>https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic</id>
+            <link href="https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic" rel="self"/>
+            <title type="text">Activity Stream</title>
+            <atlassian:timezone-offset>+0600</atlassian:timezone-offset>
+            <subtitle type="text">Lists recent activity in a single space, or in all spaces.</subtitle>
+            <updated>2018-08-27T07:11:56.958Z</updated>
+        </source>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>https://conf.test.com/pages/viewpage.action?pageId=40030497</id>
+        <title type="html">&lt;a href="https://conf.test.com/display/~Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> edited &lt;a href="https://conf.test.com/pages/viewpage.action?pageId=26358256">&amp;#1048;&amp;#1085;&amp;#1092;&amp;#1086;&amp;#1088;&amp;#1084;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1103;
+            &amp;#1087;&amp;#1086; &amp;#1084;&amp;#1086;&amp;#1076;&amp;#1091;&amp;#1083;&amp;#1103;&amp;#1084;&lt;/a>
+        </title>
+        <content type="html">&lt;div class="user-content">
+            (&lt;a href="https://conf.test.com/pages/diffpagesbyversion.action?pageId=40030497&amp;originalVersion=70&amp;revisedVersion=71">view change&lt;/a>) &lt;/div>
+        </content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://conf.test.com/display/~Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T07:09:29.070Z</published>
+        <updated>2018-08-27T07:09:29.070Z</updated>
+        <category term="page"/>
+        <link href="https://conf.test.com/pages/viewpage.action?pageId=40030497" rel="alternate"/>
+        <link href="https://conf.test.com/images/icons/docs_16.gif" rel="http://streams.atlassian.com/syndication/icon" title="Page"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/master.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/wiki-content.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/tables.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/panels.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/renderer-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/icons.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/information-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/layout-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <generator uri="https://conf.test.com"/>
+        <atlassian:application>com.atlassian.confluence</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>https://conf.test.com/pages/viewpage.action?pageId=26358256</id>
+            <title type="text">Информация по модулям</title>
+            <link rel="alternate" href="https://conf.test.com/pages/viewpage.action?pageId=26358256"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/page</activity:object-type>
+        </activity:object>
+        <activity:target>
+            <id>https://conf.test.com/display/KRAFTBEERE</id>
+            <title type="text">КрафтПиво-Fuse</title>
+            <link rel="alternate" href="https://conf.test.com/display/KRAFTBEERE"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/space</activity:object-type>
+        </activity:target>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+        <source>
+            <id>https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic</id>
+            <link href="https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic" rel="self"/>
+            <title type="text">Activity Stream</title>
+            <atlassian:timezone-offset>+0600</atlassian:timezone-offset>
+            <subtitle type="text">Lists recent activity in a single space, or in all spaces.</subtitle>
+            <updated>2018-08-27T07:11:56.958Z</updated>
+        </source>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>https://conf.test.com/pages/viewpage.action?pageId=40030495</id>
+        <title type="html">&lt;a href="https://conf.test.com/display/~Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> edited &lt;a href="https://conf.test.com/pages/viewpage.action?pageId=26358256">&amp;#1048;&amp;#1085;&amp;#1092;&amp;#1086;&amp;#1088;&amp;#1084;&amp;#1072;&amp;#1094;&amp;#1080;&amp;#1103;
+            &amp;#1087;&amp;#1086; &amp;#1084;&amp;#1086;&amp;#1076;&amp;#1091;&amp;#1083;&amp;#1103;&amp;#1084;&lt;/a>
+        </title>
+        <content type="html">&lt;div class="user-content">
+            (&lt;a href="https://conf.test.com/pages/diffpagesbyversion.action?pageId=40030495&amp;originalVersion=69&amp;revisedVersion=70">view change&lt;/a>) &lt;/div>
+        </content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://conf.test.com/display/~Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://conf.test.com/download/attachments/7638212/alivanov-48393-pp-09ae5531b0fdcfaaba3419c0957ff3cb.png?version=1&amp;modificationDate=1346837432354&amp;api=v2&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T07:08:14.268Z</published>
+        <updated>2018-08-27T07:08:14.268Z</updated>
+        <category term="page"/>
+        <link href="https://conf.test.com/pages/viewpage.action?pageId=40030495" rel="alternate"/>
+        <link href="https://conf.test.com/images/icons/docs_16.gif" rel="http://streams.atlassian.com/syndication/icon" title="Page"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/master.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/wiki-content.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/tables.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/panels.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/renderer-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/icons.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/information-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://conf.test.com/s/en_GB/5785/ede5f0c65682583b938793f0499809b6742a2089.3/1.0/_/download/resources/confluence.web.resources:content-styles/layout-macros.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <generator uri="https://conf.test.com"/>
+        <atlassian:application>com.atlassian.confluence</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>https://conf.test.com/pages/viewpage.action?pageId=26358256</id>
+            <title type="text">Информация по модулям</title>
+            <link rel="alternate" href="https://conf.test.com/pages/viewpage.action?pageId=26358256"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/page</activity:object-type>
+        </activity:object>
+        <activity:target>
+            <id>https://conf.test.com/display/KRAFTBEERE</id>
+            <title type="text">КрафтПиво-Fuse</title>
+            <link rel="alternate" href="https://conf.test.com/display/KRAFTBEERE"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/space</activity:object-type>
+        </activity:target>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+        <source>
+            <id>https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic</id>
+            <link href="https://conf.test.com/activity?use-accept-lang=true&amp;streams=user+IS+Alivanov&amp;streams=update-date+BETWEEN+1535310000000+1535396399999&amp;local=true&amp;maxResults=20&amp;os_authType=basic" rel="self"/>
+            <title type="text">Activity Stream</title>
+            <atlassian:timezone-offset>+0600</atlassian:timezone-offset>
+            <subtitle type="text">Lists recent activity in a single space, or in all spaces.</subtitle>
+            <updated>2018-08-27T07:11:56.958Z</updated>
+        </source>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>urn:uuid:d474d028-f747-34e0-a2aa-d91a9a5c09f0</id>
+        <title type="html">&lt;a href="https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> changed the Assignee to '&lt;a href="https://jira.test.com/secure/ViewProfile.jspa?name=ILapa"
+            class="activity-item-user">Лапа Иван&lt;/a>' on &lt;a href="https://jira.test.com/browse/KRAFTBEER-1630">KRAFTBEER-1630 - 236 Сервис SendMessageSimple&lt;/a>
+        </title>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T06:45:10.390Z</published>
+        <updated>2018-08-27T06:45:10.390Z</updated>
+        <link href="https://jira.test.com/browse/KRAFTBEER-1630" rel="alternate"/>
+        <link href="https://jira.test.com/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task"/>
+        <link href="https://jira.test.com/s/en_US-2d1cck/64018/13/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://jira.test.com/plugins/servlet/streamscomments/issues/KRAFTBEER-1630" rel="http://streams.atlassian.com/syndication/reply-to"/>
+        <generator uri="https://jira.test.com"/>
+        <atlassian:application>com.atlassian.jira</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>urn:uuid:7389abf8-e70e-3fa9-9652-5b4792807143</id>
+            <title type="text">KRAFTBEER-1630</title>
+            <summary type="text">236 Сервис SendMessageSimple</summary>
+            <link rel="alternate" href="https://jira.test.com/browse/KRAFTBEER-1630"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+        </activity:object>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>urn:uuid:86f6d80e-8f4c-3334-b11c-5bb3e5bd0277</id>
+        <title type="html">&lt;a href="https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> updated the &amp;#1054;&amp;#1094;&amp;#1077;&amp;#1085;&amp;#1082;&amp;#1072; of &lt;a
+            href="https://jira.test.com/browse/KRAFTBEER-1509">KRAFTBEER-1509 - 221 RFC 000000 Реализация единого файлового хранилища&lt;/a>
+        </title>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T04:46:05.991Z</published>
+        <updated>2018-08-27T04:46:05.991Z</updated>
+        <link href="https://jira.test.com/browse/KRAFTBEER-1509" rel="alternate"/>
+        <link href="https://jira.test.com/secure/viewavatar?size=xsmall&amp;avatarId=12914&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Business Requirement (ZNI)"/>
+        <link href="https://jira.test.com/s/en_US-2d1cck/64018/13/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://jira.test.com/plugins/servlet/streamscomments/issues/KRAFTBEER-1509" rel="http://streams.atlassian.com/syndication/reply-to"/>
+        <generator uri="https://jira.test.com"/>
+        <atlassian:application>com.atlassian.jira</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>urn:uuid:fdb4eb95-023b-3f27-a4b7-0e363179f0ec</id>
+            <title type="text">KRAFTBEER-1509</title>
+            <summary type="text">221 RFC 000000 Реализация единого файлового хранилища</summary>
+            <link rel="alternate" href="https://jira.test.com/browse/KRAFTBEER-1509"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+        </activity:object>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+        <id>urn:uuid:b79be613-1dd5-34d7-bd36-6706c399c292</id>
+        <title type="html">&lt;a href="https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> commented on &lt;a href="https://jira.test.com/browse/KRAFTBEER-1421">KRAFTBEER-1421 - FIS + Camel Spring Boot&lt;/a>
+        </title>
+        <summary type="html">&lt;blockquote>
+            &lt;p>Приложения Spring Boot запускаются все контейнера EAP или Karaf. Для него не нужны дополнительные установки приложений. Все что нужно это зависимости от BOM и собственно сам код. Приложение Spring Boot сам запускает необходимые контейнеры. Пример&lt;/p> &lt;a class="comment-more"
+            href="https://jira.test.com/browse/KRAFTBEER-1421?focusedCommentId=291814&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-291814">Read more&lt;/a>&lt;/blockquote>
+        </summary>
+        <content type="html">&lt;blockquote>
+            &lt;p>Приложения Spring Boot запускаются все контейнера EAP или Karaf. Для него не нужны дополнительные установки приложений. Все что нужно это зависимости от BOM и собственно сам код. Приложение Spring Boot сам запускает необходимые контейнеры. Пример приложения выложен в GitLab в &lt;a
+            class="external-link" href="https://mig-service.test.com/experiments/spring-boot-camel-cxf" rel="nofollow">spring-boot-camel-cxf&lt;/a>. Но оно без использование RedHat'овских BOM файлов. &lt;br>
+            Необходимо проверить работоспособность этого приложения на &lt;a class="external-link" href="https://github.com/jboss-fuse/redhat-fuse" rel="nofollow">BOM файле Red Hat&lt;/a> либо заново сделать отдельное приложение. &lt;/p> &lt;/blockquote>
+        </content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T04:42:56.442Z</published>
+        <updated>2018-08-27T04:42:56.442Z</updated>
+        <category term="comment"/>
+        <link href="https://jira.test.com/browse/KRAFTBEER-1421?focusedCommentId=291814&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-291814" rel="alternate"/>
+        <link href="https://jira.test.com/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task"/>
+        <link href="https://jira.test.com/s/en_US-2d1cck/64018/13/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://jira.test.com/plugins/servlet/streamscomments/issues/KRAFTBEER-1421" rel="http://streams.atlassian.com/syndication/reply-to"/>
+        <thr:in-reply-to ref="urn:uuid:88a7df9d-96d7-3c73-8381-0c366076fc2b"/>
+        <generator uri="https://jira.test.com"/>
+        <atlassian:application>com.atlassian.jira</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+        <activity:object>
+            <id>urn:uuid:ad0c3773-b423-36fc-8be4-f3aa97ba3c5f</id>
+            <link rel="alternate" href="https://jira.test.com/browse/KRAFTBEER-1421?focusedCommentId=291814&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-291814"/>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+        </activity:object>
+        <activity:target>
+            <id>urn:uuid:88a7df9d-96d7-3c73-8381-0c366076fc2b</id>
+            <title type="text">KRAFTBEER-1421</title>
+            <summary type="text">FIS + Camel Spring Boot</summary>
+            <link rel="alternate" href="https://jira.test.com/browse/KRAFTBEER-1421"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+        </activity:target>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+    </entry>
+    <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+        <id>urn:uuid:bf2c475d-d9bb-3a67-ae20-9f9955bfae0c</id>
+        <title type="html">&lt;a href="https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov" class="activity-item-user activity-item-author">Петров Степа&lt;/a> created a link from
+
+
+            &lt;a href="https://jira.test.com/browse/KRAFTBEER-1421" class="issue-link">KRAFTBEER-1421 - Попробовать Camel Spring Boot&lt;/a>
+            to &lt;a href="https://github.com/jboss-fuse/redhat-fuse" class="issue-link">Product repo for Red Hat Fuse&lt;/a>
+            (Web Link)
+        </title>
+        <content type="html"></content>
+        <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+            <name>Петров Степа</name>
+            <email>Stepa.Ivanov@test.com</email>
+            <uri>https://jira.test.com/secure/ViewProfile.jspa?name=Alivanov</uri>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=16" media:height="16" media:width="16"/>
+            <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://jira.test.com/secure/useravatar?ownerId=alivanov&amp;avatarId=11600&amp;s=48" media:height="48" media:width="48"/>
+            <usr:username>Alivanov</usr:username>
+            <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+        </author>
+        <published>2018-08-27T04:38:49.065Z</published>
+        <updated>2018-08-27T04:38:49.065Z</updated>
+        <link href="https://jira.test.com/browse/KRAFTBEER-1421" rel="alternate"/>
+        <link href="https://jira.test.com/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task"/>
+        <link href="https://jira.test.com/s/en_US-2d1cck/64018/13/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+        <link href="https://jira.test.com/plugins/servlet/streamscomments/issues/KRAFTBEER-1421" rel="http://streams.atlassian.com/syndication/reply-to"/>
+        <generator uri="https://jira.test.com"/>
+        <atlassian:application>com.atlassian.jira</atlassian:application>
+        <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+        <activity:object>
+            <id>urn:uuid:88a7df9d-96d7-3c73-8381-0c366076fc2b</id>
+            <title type="text">KRAFTBEER-1421</title>
+            <summary type="text">Попробовать Camel Spring Boot</summary>
+            <link rel="alternate" href="https://jira.test.com/browse/KRAFTBEER-1421"/>
+            <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+        </activity:object>
+        <atlassian:timezone-offset>+0500</atlassian:timezone-offset>
+    </entry>
+</feed>

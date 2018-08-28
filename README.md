@@ -1,2 +1,2 @@
-# activity-parser
-Jira activity stream xml parser
+Jira activity stream parser for interval purposes.
+

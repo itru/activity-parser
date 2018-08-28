@@ -1,0 +1,334 @@
+{
+  "filters": [
+    {
+      "key": "streams",
+      "name": "",
+      "applinkName": "",
+      "options": [
+        {
+          "key": "key",
+          "helpText": "Выберите один или несколько проектов.",
+          "name": "Проект",
+          "operators": [
+            {
+              "key": "is",
+              "name": "is"
+            },
+            {
+              "key": "not",
+              "name": "is not"
+            }
+          ],
+          "type": "select",
+          "unique": true,
+          "values": {
+            "CZR": "!ЦЗР – Исследовательские работы",
+            "NOPROJECT": "0. Непроектная активность",
+            "SALESK": "1. Пресейлы и поручения РЦК Качинкина",
+            "SALEAM": "2. Пресейлы и поручения РЦК Михеевой",
+            "SALEAP": "3. Пресейлы и поручения РЦК Преображенского",
+            "SALEES": "4. Пресейлы и поручения РЦК Сергановой",
+            "SALEEF": "5. Пресейлы и поручения РЦК Фомина",
+            "SALEYC": "6. Пресейлы и поручения РЦК Черновой",
+            "SALEMM": "7. Пресейлы и поручения  ГД Македонского",
+            "SALEDZ": "8. Пресейлы и поручения  ТД Зайцева",
+            "SALEMGR": "9. Внепроектные и пресейловые поручения своего руководителя отделения",
+            "MTSUSIM": "MTS - USIM",
+            "SD": "Service Desk",
+            "ITIASMK": "АйТи – ИАС Минсоцполитики Красноярска",
+            "APLANATS": "ВнутрСистемы-АЦР-2018 - Развитие TimeSheet",
+            "APLANASITE": "ВнутрСистемы-АЦР-2018 - Развитие сайта АЦР",
+            "GASAD": "Гринатом - САД",
+            "APLCZR": "Инфраструктура-АЦР-2018",
+            "MVNTS": "МВидео-2016-NTSwincash",
+            "MSRB": "МИА - Россия сегодня",
+            "MIGCREDFUS": "МигКредит-Fuse",
+            "MTSWEB": "МТС – Реновация СЭД",
+            "PRFS": "ПочтаРФ-Сервисы",
+            "RNEIASEXT": "РН ЕИАС",
+            "REDO": "Росстандарт ЭДО",
+            "RUSSCOLL": "Руссколлектор – Сопровождение ",
+            "SBRFABBYY": "СБ РФ - ABBYY(ГОЗ+7М)",
+            "SBSFUSE": "СБ-Страхование-2018-Fuse",
+            "SBRFECM": "СБРФ - SBRFECM",
+            "IASD": "СБРФ – АИС Депозитарий",
+            "SBRFTAXIN": "СБРФ – Интеграция АС Учет налогов",
+            "SBRFLKPU": "СБРФ – ЛКПУ",
+            "SBRFTAXREC": "СБРФ – Налоговая выверка",
+            "SBRFNDFL": "СБРФ – НДФЛ",
+            "SBRFSUZA": "СБРФ – СУЗ Андеррайтинга",
+            "SBRFACCTAX": "СБРФ – Учет налогов",
+            "SBRFDOCKER": "СБРФ – Учет налогов - Микросервисы",
+            "TINKOFFZR": "Тинькофф-2017-ЗР",
+            "TINKOFZRIN": "Тинькофф-2017-ЗР-Внутренний",
+            "FNSCLAIM": "ФНС – Жалобы",
+            "FNSMNNI": "ФНС – ПП МННИ",
+            "FNSAUDIT": "ФНС-2018-Аудит",
+            "EDMSNEW": "Фольксваген - Развитие EDMS",
+            "CBRMSFO": "ЦБ РФ - АС МСФО",
+            "CBRSIPSGA": "ЦБ РФ – СИП СГА",
+            "CBFPSFED": "ЦБ ФПС ФЭД",
+            "SBRFEDOSRT": "ЭДО-2 (СБРФ ЭДО ФНС)",
+            "TEST": "я Тестовый проект",
+            "YAMICROSTR": "Яндекс - MicroStrategy"
+          }
+        },
+        {
+          "key": "update-date",
+          "name": "Дата обновления",
+          "operators": [
+            {
+              "key": "before",
+              "name": "is before"
+            },
+            {
+              "key": "after",
+              "name": "is after"
+            },
+            {
+              "key": "between",
+              "name": "находится между"
+            }
+          ],
+          "type": "date",
+          "unique": true,
+          "values": {}
+        },
+        {
+          "key": "user",
+          "helpText": "Список имен пользователей, разделенных пробелами.",
+          "name": "Имя пользователя",
+          "operators": [
+            {
+              "key": "is",
+              "name": "is"
+            },
+            {
+              "key": "not",
+              "name": "is not"
+            }
+          ],
+          "type": "user",
+          "unique": true,
+          "values": {}
+        },
+        {
+          "key": "issue-key",
+          "helpText": "Список ключей запросов, разделенных пробелами.",
+          "name": "Ключ задачи JIRA",
+          "operators": [
+            {
+              "key": "is",
+              "name": "is"
+            },
+            {
+              "key": "not",
+              "name": "is not"
+            }
+          ],
+          "type": "list",
+          "unique": true,
+          "values": {}
+        }
+      ]
+    },
+    {
+      "key": "issues",
+      "name": "JIRA",
+      "applinkName": "",
+      "options": [
+        {
+          "key": "project_category",
+          "helpText": "Select one or more project categories.",
+          "name": "Project Category",
+          "operators": [
+            {
+              "key": "is",
+              "name": "is"
+            },
+            {
+              "key": "not",
+              "name": "is not"
+            }
+          ],
+          "type": "select",
+          "unique": true,
+          "values": {}
+        },
+        {
+          "key": "activity",
+          "helpText": "Select one or more types of activity.",
+          "name": "Активность",
+          "operators": [
+            {
+              "key": "is",
+              "name": "is"
+            },
+            {
+              "key": "not",
+              "name": "is not"
+            }
+          ],
+          "type": "select",
+          "unique": true,
+          "values": {
+            "issue:transition": "Issue transitioned",
+            "file:post": "Добавлено вложение",
+            "issue:resolve": "Задача решена",
+            "issue:post": "Задача создана",
+            "issue:close": "Запрос закрыт",
+            "issue:open": "Запрос открыт",
+            "issue:update": "Запрос редактирован",
+            "comment:post": "Комментарий добавлен",
+            "issue:start": "Начата работа над запросом",
+            "issue:stop": "Остановлена работа над запросом",
+            "issue:reopen": "запрос переоткрыт"
+          }
+        },
+        {
+          "key": "issue_type",
+          "helpText": "Выберите один или несколько типов запросов.",
+          "name": "Тип запроса",
+          "operators": [
+            {
+              "key": "is",
+              "name": "is"
+            },
+            {
+              "key": "not",
+              "name": "is not"
+            }
+          ],
+          "type": "select",
+          "unique": true,
+          "values": {
+            "10": "Query",
+            "10400": "0.Сertification",
+            "10500": "sd.Замена/Выдача оборудования",
+            "1": "Ошибка",
+            "10401": "0.Workplace",
+            "3": "Task",
+            "10503": "sd.Проблемы",
+            "10300": "Problem",
+            "4": "Улучшение",
+            "10100": "Request",
+            "2": "Новая разработка",
+            "10403": "0.Idle",
+            "9": "Business Requirement (ZNI)",
+            "10501": "sd.Запросы",
+            "10006": "Business Problem (BUG)",
+            "12": "AnalystTask",
+            "10402": "0.HumanResource",
+            "10502": "sd.Проектная инфраструктура",
+            "5": "Sub-task",
+            "11": "CT-Task",
+            "10404": "0.Game",
+            "7": "Story",
+            "10000": "IT Help"
+          }
+        }
+      ]
+    },
+    {
+      "key": "thirdparty",
+      "name": "Третьи лица",
+      "applinkName": "",
+      "options": [
+        {
+          "key": "activity",
+          "helpText": "Select one or more types of activity.",
+          "name": "Активность",
+          "operators": [
+            {
+              "key": "is",
+              "name": "is"
+            },
+            {
+              "key": "not",
+              "name": "is not"
+            }
+          ],
+          "type": "select",
+          "unique": true,
+          "values": {}
+        },
+        {
+          "key": "provider_name",
+          "helpText": "Select one or more third party providers",
+          "name": "Поставщик",
+          "operators": [
+            {
+              "key": "is",
+              "name": "is"
+            },
+            {
+              "key": "not",
+              "name": "is not"
+            }
+          ],
+          "type": "select",
+          "unique": true,
+          "values": {}
+        }
+      ],
+      "providerAliasOptionKey": "provider_name"
+    },
+    {
+      "key": "wiki@4af290a1-1cfe-3dae-b9a8-d0592974cb65",
+      "name": "Confluence",
+      "applinkName": "Aplana Confluence",
+      "options": [
+        {
+          "key": "network",
+          "helpText": "Выберите, будете ли следовать за автром",
+          "name": "Автор",
+          "operators": [
+            {
+              "key": "is",
+              "name": "есть"
+            },
+            {
+              "key": "not",
+              "name": "есть не"
+            }
+          ],
+          "type": "select",
+          "unique": true,
+          "values": {
+            "followedByMe": "Следуйте за мной"
+          }
+        },
+        {
+          "key": "activity",
+          "helpText": "Выберите один или несколько типов активности",
+          "name": "Активность",
+          "operators": [
+            {
+              "key": "is",
+              "name": "есть"
+            },
+            {
+              "key": "not",
+              "name": "есть не"
+            }
+          ],
+          "type": "select",
+          "unique": true,
+          "values": {
+            "article:post": "Блог добавлен",
+            "article:update": "Блог отредактирован",
+            "comment:post": "Комментарий добавлен",
+            "personal-space:post": "Персональное пространство добавлено",
+            "personal-space:update": "Персональное пространство отредактировано",
+            "status:update": "Пользовательский статус обновлен",
+            "file:post": "Прикрепление добавлено",
+            "space:post": "Пространство добавлено",
+            "space:update": "Пространство отредактировано",
+            "page:post": "Страница добавлена",
+            "page:update": "Страница отредактирована"
+          }
+        }
+      ]
+    }
+  ]
+}
