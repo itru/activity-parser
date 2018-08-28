@@ -1,8 +1,9 @@
 # activity-parser
 Jira activity stream xml parser
 
-  |\_/|   
- / @ @ \  
-( > º < ) 
- `>>x<<´  
- /  O  \  
+       |\_/|   
+      / @ @ \  
+     ( > º < ) 
+      `>>x<<´  
+      /  O  \  
+ 
